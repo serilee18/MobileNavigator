@@ -102,11 +102,11 @@ public class MainActivity extends Activity implements SensorEventListener {
         vid = (ImageButton) findViewById(R.id.imageButton);
         vid.setVisibility(View.GONE);
 
-        /*
+
         tv = (TextView) findViewById(R.id.textViewHeading);
         String setTextText = "Heading: " + heading + " Speed: " + speed;
         tv.setText(setTextText);
-        */
+
 
 
     }
@@ -333,8 +333,8 @@ public class MainActivity extends Activity implements SensorEventListener {
 
     class SayHello extends TimerTask {
         public void run() {
-            lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-            location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+//              lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+//            location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 //            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 100, 0, locationListener );
 //            longitude = location.getLongitude();
 //            latitude = location.getLatitude();
@@ -353,36 +353,35 @@ public class MainActivity extends Activity implements SensorEventListener {
 
             String timeStamp = String.valueOf((new Date()).getTime());
 
-//            writer.println(longitude_original + "," + latitude_original + "," + speed + "," + dist[0] + "," + timeStamp + "," + linear_acc_x + "," + linear_acc_y + "," + linear_acc_z + "," +
-//                    heading + "," + gyro_x + "," + gyro_y + "," + gyro_z);
+            writer.println(timeStamp + "," + linear_acc_x + "," + linear_acc_y + "," + linear_acc_z + "," + heading + "," + gyro_x + "," + gyro_y + "," + gyro_z + "," + rotv_x + "," + rotv_y + "," + rotv_z + "," + rotv_w + "," + rotv_accuracy);
 
-            writer.println(timeStamp + "," +
-                           longitude_original + "," + latitude_original + "," +
-                           rotv_x + "," + rotv_y + "," + rotv_z + "," + rotv_w + "," + rotv_accuracy);
+//            writer.println(timeStamp + "," +
+//                           longitude_original + "," + latitude_original + "," +
+//                           rotv_x + "," + rotv_y + "," + rotv_z + "," + rotv_w + "," + rotv_accuracy);
         }
     }
 
     public void storeData() {
 
-        String filePath = Environment.getExternalStorageDirectory().getPath()+"/Download/" + timeStampFile + "/" + timeStampFile  +  ".csv";
+        String filePath = Environment.getExternalStorageDirectory().getPath()+"/elab/" + timeStampFile + "/" + timeStampFile  +  ".csv";
         try {
             writer = new PrintWriter(filePath);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
         //Log.d("myTag", "Longitude" + "," + "Latitude" + "," + "Speed");
-//        writer.println("Longitude" + "," + "Latitude" + "," + "Speed" + "," + "Distance" + "," + "Time" + "," + "Acc X" + "," + "Acc Y" + "," + "Acc Z" + "," + "Heading" + "," + "gyro_x" + "," + "gyro_y" + "," + "gyro_z");
-        writer.println("Timestamp" + "," +
-                       "Longitude" + "," + "Latitude" + "," +
-                       "RotationV X" + "," + "RotationV Y" + "," + "RotationV Z" + "," + "RotationV W" + "," + "RotationV Acc");
-        LocationManager original = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        Location original_location = original.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-        if(original.getLastKnownLocation(LocationManager.GPS_PROVIDER) != null){
-            latitude_original = original_location.getLatitude();
-            longitude_original = original_location.getLongitude();
-        }
-        //String setTextText = "Heading: " + heading + " Speed: " + speed;
-        //tv.setText(setTextText);
+        writer.println("Time" + "," + "Acc X" + "," + "Acc Y" + "," + "Acc Z" + "," + "Heading" + "," + "gyro_x" + "," + "gyro_y" + "," + "gyro_z" + "," + "RotationV X" + "," + "RotationV Y" + "," + "RotationV Z" + "," + "RotationV W" + "," + "RotationV Acc");
+//        writer.println("Timestamp" + "," +
+//                       "Longitude" + "," + "Latitude" + "," +
+//                       "RotationV X" + "," + "RotationV Y" + "," + "RotationV Z" + "," + "RotationV W" + "," + "RotationV Acc");
+//        LocationManager original = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+//        Location original_location = original.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+//        if(original.getLastKnownLocation(LocationManager.GPS_PROVIDER) != null){
+//            latitude_original = original_location.getLatitude();
+//            longitude_original = original_location.getLongitude();
+//        }
+        String setTextText = "Heading: " + heading + "\nlinear_acc_x: " + linear_acc_x + "," + "\nlinear_acc_y: " + linear_acc_y + "," + "\nlinear_acc_z: " + linear_acc_z + "," + "\ngyro_x: " + gyro_x + ","  + "\ngyro_y: " + gyro_y + "," + "\ngyro_z: "+ gyro_z + "\nrotv_x: " + rotv_x + "," + "\nrotv_y: " + rotv_y + "," + "\nrotv_z: " + rotv_z + "," + "\nrotv_w: " +  rotv_w + "," + "\nrotv_acc: " +  rotv_accuracy;
+        tv.setText(setTextText);
         timer = new Timer();
         timer.schedule(new SayHello(), 0, rate);
         /*if(clickFlag == 1) {
@@ -457,8 +456,9 @@ public class MainActivity extends Activity implements SensorEventListener {
             gyro_y = event.values[1];
             gyro_z = event.values[2];
         }
-//        String setTextText = "Heading: " + heading + " Speed: " + speed;
-//        tv.setText(setTextText);
+        //String setTextText = "Heading: " + heading + " Speed: " + speed;
+        String setTextText = "Heading: " + heading + "\nlinear_acc_x: " + linear_acc_x + "," + "\nlinear_acc_y: " + linear_acc_y + "," + "\nlinear_acc_z: " + linear_acc_z + "," + "\ngyro_x: " + gyro_x + ","  + "\ngyro_y: " + gyro_y + "," + "\ngyro_z: "+ gyro_z  + "\nrotv_x: " + rotv_x + "," + "\nrotv_y: " + rotv_y + "," + "\nrotv_z: " + rotv_z + "," + "\nrotv_w: " +  rotv_w + "," + "\nrotv_acc: " +  rotv_accuracy;
+        tv.setText(setTextText);
 
     }
     String[] options = {"1080p","720p","480p"};
