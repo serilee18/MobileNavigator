@@ -353,7 +353,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 
             String timeStamp = String.valueOf((new Date()).getTime());
 
-            writer.println(timeStamp + "," + linear_acc_x + "," + linear_acc_y + "," + linear_acc_z + "," + heading + "," + gyro_x + "," + gyro_y + "," + gyro_z + "," + rotv_x + "," + rotv_y + "," + rotv_z + "," + rotv_w + "," + rotv_accuracy);
+            writer.println(timeStamp + "," + heading + "," + linear_acc_x + "," + linear_acc_y + "," + linear_acc_z + "," + gyro_x + "," + gyro_y + "," + gyro_z + "," + rotv_x + "," + rotv_y + "," + rotv_z + "," + rotv_w + "," + rotv_accuracy);
 
 //            writer.println(timeStamp + "," +
 //                           longitude_original + "," + latitude_original + "," +
@@ -370,7 +370,7 @@ public class MainActivity extends Activity implements SensorEventListener {
             e.printStackTrace();
         }
         //Log.d("myTag", "Longitude" + "," + "Latitude" + "," + "Speed");
-        writer.println("Time" + "," + "Acc X" + "," + "Acc Y" + "," + "Acc Z" + "," + "Heading" + "," + "gyro_x" + "," + "gyro_y" + "," + "gyro_z" + "," + "RotationV X" + "," + "RotationV Y" + "," + "RotationV Z" + "," + "RotationV W" + "," + "RotationV Acc");
+        writer.println("Time" + ","  + "Heading" + "," + "A_X" + "," + "A_Y" + "," + "A_Z" + "," + "G_X" + "," + "G_Y" + "," + "G_Z" + "," + "RV_X" + "," + "RV_Y" + "," + "RV_Z" + "," + "RV_W" + "," + "RV_C");
 //        writer.println("Timestamp" + "," +
 //                       "Longitude" + "," + "Latitude" + "," +
 //                       "RotationV X" + "," + "RotationV Y" + "," + "RotationV Z" + "," + "RotationV W" + "," + "RotationV Acc");
