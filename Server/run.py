@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify, render_template
 from werkzeug import secure_filename
-import json
-import os
+import os, json, csv
+import numpy as np
+import matplotlib.pyplot as plt
+import Myutils
 
 app = Flask(__name__)
 
@@ -28,6 +30,7 @@ def post():
         f_vid = request.files['vid']
         f_csv.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f_csv.filename)))
         f_vid.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f_vid.filename)))
+	Myutils.ReadCSV(f_csv.filename)
         return render_template("index.html")
 
     #return 'POST_From'
@@ -41,15 +44,3 @@ def get():
 if __name__ == '__main__':
     app.run(host='163.152.217.166', debug=True,port = 8888)
 
-"""
-import csv
- 
-f = open('1550407407653.csv', 'r', encoding='utf-8')
-rdr = csv.reader(f)
-lines1=list(rdr)
-print(len(lines1))
-print(lines1[0])
-#for line in rdr:
-#    print(line)
-f.close()  
-"""
