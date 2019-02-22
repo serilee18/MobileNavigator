@@ -215,6 +215,8 @@ public class MainActivity extends Activity implements SensorEventListener {
                 txt.setTextColor(-16711936);
                 //chrono.setBackgroundColor(0);
                 enddata();
+
+                // HERE TO FILE POST SEND SERVER
 /*
                 if(clickFlag == 1){
                     clickFlag = 0;
