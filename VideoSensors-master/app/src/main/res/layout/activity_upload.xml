@@ -30,6 +30,12 @@
         android:layout_marginTop="30dp"
         android:layout_height="200dp"
         android:layout_width="match_parent"
+        android:id="@+id/VideoFrame"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
         android:id="@+id/ResultImage1"/>
 
     <ImageView

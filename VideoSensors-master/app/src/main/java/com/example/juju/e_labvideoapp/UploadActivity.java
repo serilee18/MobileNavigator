@@ -52,6 +52,7 @@ public class UploadActivity extends AppCompatActivity {
         ImageArr.add((ImageView) findViewById(R.id.ResultImage10)) ;
         ImageArr.add((ImageView) findViewById(R.id.ResultImage11)) ;
         ImageArr.add((ImageView) findViewById(R.id.ResultImage12)) ;
+        ImageArr.add((ImageView) findViewById(R.id.VideoFrame)) ;
 
 
         findViewById(R.id.RestartButton).setOnClickListener(mClickListener);
@@ -77,10 +78,15 @@ public class UploadActivity extends AppCompatActivity {
                     String[] ResultImage = response.get(0).split(",");
 
                     for(int i=1;i<ResultImage.length;i++) {
-                        URL url = new URL("http://163.152.217.166:8888/static/result/"+ResultImage[i]+".jpg");
+                        URL url;
+                        if(ResultImage.length-1 == i){
+                            url = new URL("http://163.152.217.166:8888/static/images/"+ResultImage[i]+".jpg");
+                        }
+                        else {
+                            url = new URL("http://163.152.217.166:8888/static/result/" + ResultImage[i] + ".jpg");
+                        }
                         InputStream is = url.openStream();
                         BitmapArr.add(BitmapFactory.decodeStream(is));
-                        //final Bitmap bm[i] = BitmapFactory.decodeStream(is);
                     }
                     handler.post(new Runnable() {
                         @Override
