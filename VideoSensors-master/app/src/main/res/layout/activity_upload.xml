@@ -6,95 +6,82 @@
 
 
     <ProgressBar
-        android:layout_marginTop="300dp"
         android:id="@+id/uploadPB"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:visibility="gone" />
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage1"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage2"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage3"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage4"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage5"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage6"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage7"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage8"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage9"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage10"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage11"/>
 
     <ImageView
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_width="match_parent"
-        android:background="@drawable/logo"
         android:id="@+id/ResultImage12"/>
 
 
