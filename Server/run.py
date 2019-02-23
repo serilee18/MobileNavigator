@@ -5,7 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import Myutils
 
-
 app = Flask(__name__)
 
 app.config['UPLOAD_FOLDER'] = 'tmp' 
@@ -31,8 +30,14 @@ def post():
         f_vid = request.files['vid']
         f_csv.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f_csv.filename)))
         f_vid.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f_vid.filename)))
-        Myutils.ReadCSV(f_csv.filename)
-        return render_template("index.html")
+        print(f_csv.filename)
+        VideoNames = Myutils.GetFrame(f_vid.filename,'',2)
+        ImageNames =  Myutils.ReadCSV(f_csv.filename)
+        ResultImages = os.listdir('static/result/')
+        print(ImageNames)
+        return ','.join(ImageNames)+','+VideoNames
+        #return "Server OK"
+        #return render_template("result.html", ResultImages=ResultImages)
 
     #return 'POST_From'
 
