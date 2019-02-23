@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/layout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -7,10 +12,19 @@
 
     <ProgressBar
         android:id="@+id/uploadPB"
+        android:layout_marginTop="300dp"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:visibility="gone" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="!!!Restart!!!"
+        android:id="@+id/RestartButton"
+        android:layout_gravity="center_horizontal" />
 
     <ImageView
         android:layout_marginTop="30dp"
@@ -86,3 +100,4 @@
 
 
 </LinearLayout>
+</ScrollView>
