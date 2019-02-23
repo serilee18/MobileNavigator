@@ -13,6 +13,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.hardware.Camera.CameraInfo;
@@ -24,6 +25,7 @@ import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.StrictMode;
 import android.os.SystemClock;
 import android.telephony.TelephonyManager;
 import android.util.Log;
@@ -35,6 +37,7 @@ import android.widget.Chronometer;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -55,6 +58,8 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
+
 public class MainActivity extends Activity implements SensorEventListener {
     private Camera mCamera;
     private CameraPreview mPreview;
@@ -72,6 +77,10 @@ public class MainActivity extends Activity implements SensorEventListener {
     int clickFlag = 0;
     Timer timer;
     int VideoFrameRate = 24;
+
+//    private File wallpaperDirectory;
+//    private File wallpaperDirectory1;
+
 
     LocationListener locationListener;
     LocationManager LM;
@@ -107,7 +116,11 @@ public class MainActivity extends Activity implements SensorEventListener {
         String setTextText = "Heading: " + heading + " Speed: " + speed;
         tv.setText(setTextText);
 
-
+        if (android.os.Build.VERSION.SDK_INT > 9)
+        {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
 
     }
 
@@ -132,7 +145,7 @@ public class MainActivity extends Activity implements SensorEventListener {
     public void onResume() {
         super.onResume();
         if (!checkCameraHardware(myContext)) {
-            Toast toast = Toast.makeText(myContext, "Phone doesn't have a camera!", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(myContext, "Phone doesn't have a camera!", Toast.LENGTH_SHORT);
             toast.show();
             finish();
         }
@@ -204,7 +217,7 @@ public class MainActivity extends Activity implements SensorEventListener {
                 // stop recording and release camera
                 mediaRecorder.stop(); // stop the recording
                 releaseMediaRecorder(); // release the MediaRecorder object
-                Toast.makeText(MainActivity.this, "Video captured!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Video captured!", Toast.LENGTH_SHORT).show();
                 recording = false;
                 //d.exportData();
                 chrono.stop();
@@ -216,6 +229,12 @@ public class MainActivity extends Activity implements SensorEventListener {
                 //chrono.setBackgroundColor(0);
                 enddata();
 
+                String FilePath = Environment.getExternalStorageDirectory().getPath()+"/elab/" + timeStampFile + "/" + timeStampFile;
+ //               String MP4Path = Environment.getExternalStorageDirectory().getPath()+"/elab/" + timeStampFile + "/" + timeStampFile  + ".mp4";
+                Intent intent = new Intent(MainActivity.this, UploadActivity.class);
+                intent.putExtra("FilePath", FilePath);
+                startActivity(intent);
+                //MainActivity.this.startActivity(intent);
                 // HERE TO FILE POST SEND SERVER
 /*
                 if(clickFlag == 1){
@@ -231,7 +250,7 @@ public class MainActivity extends Activity implements SensorEventListener {
                 File wallpaperDirectory1 = new File(Environment.getExternalStorageDirectory().getPath()+"/elab/"+timeStampFile);
                 wallpaperDirectory1.mkdirs();
                 if (!prepareMediaRecorder()) {
-                    Toast.makeText(MainActivity.this, "Fail in prepareMediaRecorder()!\n - Ended -", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Fail in prepareMediaRecorder()!\n - Ended -", Toast.LENGTH_SHORT).show();
                     finish();
                 }
 
@@ -244,7 +263,7 @@ public class MainActivity extends Activity implements SensorEventListener {
                         }
                     }
                 });
-                Toast.makeText(MainActivity.this, "Recording...", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Recording...", Toast.LENGTH_SHORT).show();
 
                 Camera.Parameters params = mCamera.getParameters();
                 params.setPreviewFpsRange( 30000, 30000 ); // 30 fps

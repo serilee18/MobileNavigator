@@ -25,7 +25,7 @@
 
 
         </activity>
-
+        <activity android:label="@string/app_name" android:name=".UploadActivity"/>
     </application>
 
     <uses-permission android:name="android.permission.CAMERA" />
