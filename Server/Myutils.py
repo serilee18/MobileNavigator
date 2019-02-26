@@ -5,6 +5,7 @@ import cv2
 
 
 def ReadCSV(csvfile):
+	filename = csvfile.split('.')[0]
 	f1=open(os.path.join('tmp/',csvfile))
 	csv_read=csv.reader(f1)
 	csv_x=list(csv_read)
@@ -39,7 +40,7 @@ def ReadCSV(csvfile):
 		plt.close('all')
 		plt.title(csv_list[0][i])
 		plt.plot((csv_np[:,0]-Start_Time)/1000, csv_np[:,i])
-		plt.savefig('static/result/'+csv_list[0][i]+'.jpg')
+		plt.savefig(os.path.join('static/result/',filename,csv_list[0][i]+'.jpg'))
 
 	return csv_list[0]
 
@@ -48,7 +49,7 @@ def GetFrame(VidName,OutPath,NumFrame):
 	vid = cv2.VideoCapture(os.path.join('tmp/',VidName))
 	success, image = vid.read()
 	count = 0
-	OutPath = 'static/images/'
+	OutPath = os.path.join('static/images/',OutPath)
 	while success and count<NumFrame:
 		writepath = os.path.join(OutPath, "frame%d.jpg" % count)
 		cv2.imwrite(writepath, image)

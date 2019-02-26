@@ -30,11 +30,13 @@ def post():
         f_vid = request.files['vid']
         f_csv.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f_csv.filename)))
         f_vid.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f_vid.filename)))
-        print(f_csv.filename)
+        filename = (f_csv.filename).split('.')[0]
+        print(filename)
+        os.mkdir(os.path.join('static/result',filename))
         VideoNames = Myutils.GetFrame(f_vid.filename,'',2)
         ImageNames =  Myutils.ReadCSV(f_csv.filename)
-        ResultImages = os.listdir('static/result/')
-        print(ImageNames)
+        ResultImages = os.listdir(os.path.join('static/result/',filename))
+        print(ResultImages)
         return ','.join(ImageNames)+','+VideoNames
         #return "Server OK"
         #return render_template("result.html", ResultImages=ResultImages)
