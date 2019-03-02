@@ -1,0 +1,23 @@
+ * Serving Flask app "run" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://163.152.217.166:8888/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 282-239-576
+1.212.234.245 - - [25/Feb/2019 16:42:44] "POST /post HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:44] "GET /static/result/Heading.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:44] "GET /static/result/A_X.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/A_Y.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/A_Z.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/G_X.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/G_Y.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/G_Z.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/RV_X.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/RV_Y.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/RV_Z.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/RV_W.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/result/RV_C.jpg HTTP/1.1" 200 -
+1.212.234.245 - - [25/Feb/2019 16:42:45] "GET /static/images/frame1.jpg HTTP/1.1" 200 -
