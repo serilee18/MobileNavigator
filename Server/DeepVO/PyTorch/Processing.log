@@ -1,0 +1,1449 @@
+Load data info from datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+Number of samples in training dataset:  11213
+Number of samples in validation dataset:  2192
+==================================================
+CUDA used.
+Load model from:  models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.0005_optAdagrad.model.train
+Load optimizer from:  models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.0005_optAdagrad.optimizer.train
+Record loss in:  records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.0005_optAdagrad.txt
+==================================================
+Train take 416.2 sec
+Valid take 46.3 sec
+Epoch 1
+train loss mean: 0.013231063095771633, std: 0.00
+valid loss mean: 0.038715251770907594, std: 0.02
+
+Save model at ep 1, mean of valid loss: 0.038715251770907594
+Save model at ep 1, mean of train loss: 0.013231063095771633
+==================================================
+Train take 416.3 sec
+Valid take 36.1 sec
+Epoch 2
+train loss mean: 0.012947836325109686, std: 0.00
+valid loss mean: 0.03675906374136279, std: 0.02
+
+Save model at ep 2, mean of valid loss: 0.03675906374136279
+Save model at ep 2, mean of train loss: 0.012947836325109686
+==================================================
+Train take 416.9 sec
+Valid take 34.5 sec
+Epoch 3
+train loss mean: 0.012847913186837635, std: 0.00
+valid loss mean: 0.033844147773029715, std: 0.02
+
+Save model at ep 3, mean of valid loss: 0.033844147773029715
+Save model at ep 3, mean of train loss: 0.012847913186837635
+==================================================
+Train take 416.9 sec
+Valid take 34.9 sec
+Epoch 4
+train loss mean: 0.012751242733872273, std: 0.00
+valid loss mean: 0.03406625236776886, std: 0.02
+
+Save model at ep 4, mean of train loss: 0.012751242733872273
+==================================================
+Train take 416.4 sec
+Valid take 34.7 sec
+Epoch 5
+train loss mean: 0.012623346052388478, std: 0.00
+valid loss mean: 0.0336060614884582, std: 0.02
+
+Save model at ep 5, mean of valid loss: 0.0336060614884582
+Save model at ep 5, mean of train loss: 0.012623346052388478
+==================================================
+Train take 416.5 sec
+Valid take 35.1 sec
+Epoch 6
+train loss mean: 0.012513098985004604, std: 0.00
+valid loss mean: 0.03191793037769504, std: 0.02
+
+Save model at ep 6, mean of valid loss: 0.03191793037769504
+Save model at ep 6, mean of train loss: 0.012513098985004604
+==================================================
+Train take 417.1 sec
+Valid take 35.1 sec
+Epoch 7
+train loss mean: 0.012308655606501661, std: 0.00
+valid loss mean: 0.03572418533381579, std: 0.02
+
+Save model at ep 7, mean of train loss: 0.012308655606501661
+==================================================
+Train take 416.9 sec
+Valid take 35.2 sec
+Epoch 8
+train loss mean: 0.012131801396568467, std: 0.00
+valid loss mean: 0.034853422233063876, std: 0.02
+
+Save model at ep 8, mean of train loss: 0.012131801396568467
+==================================================
+Train take 416.7 sec
+Valid take 35.2 sec
+Epoch 9
+train loss mean: 0.012124649541509696, std: 0.00
+valid loss mean: 0.03320985328876874, std: 0.02
+
+Save model at ep 9, mean of train loss: 0.012124649541509696
+==================================================
+Train take 416.8 sec
+Valid take 35.5 sec
+Epoch 10
+train loss mean: 0.011978763967638119, std: 0.00
+valid loss mean: 0.03159803126157422, std: 0.02
+
+Save model at ep 10, mean of valid loss: 0.03159803126157422
+Save model at ep 10, mean of train loss: 0.011978763967638119
+==================================================
+Train take 417.4 sec
+Valid take 35.4 sec
+Epoch 11
+train loss mean: 0.011945690172289011, std: 0.00
+valid loss mean: 0.02950815800850317, std: 0.01
+
+Save model at ep 11, mean of valid loss: 0.02950815800850317
+Save model at ep 11, mean of train loss: 0.011945690172289011
+==================================================
+Train take 416.6 sec
+Valid take 34.8 sec
+Epoch 12
+train loss mean: 0.01176287075019389, std: 0.00
+valid loss mean: 0.031703093459304325, std: 0.02
+
+Save model at ep 12, mean of train loss: 0.01176287075019389
+==================================================
+Train take 417.1 sec
+Valid take 35.1 sec
+Epoch 13
+train loss mean: 0.011613015505916664, std: 0.00
+valid loss mean: 0.03121936908537597, std: 0.02
+
+Save model at ep 13, mean of train loss: 0.011613015505916664
+==================================================
+Train take 417.7 sec
+Valid take 36.0 sec
+Epoch 14
+train loss mean: 0.011604605781726757, std: 0.00
+valid loss mean: 0.029517249057526552, std: 0.01
+
+Save model at ep 14, mean of train loss: 0.011604605781726757
+==================================================
+Train take 417.3 sec
+Valid take 35.1 sec
+Epoch 15
+train loss mean: 0.011549796270596118, std: 0.00
+valid loss mean: 0.026152225526820717, std: 0.01
+
+Save model at ep 15, mean of valid loss: 0.026152225526820717
+Save model at ep 15, mean of train loss: 0.011549796270596118
+==================================================
+Train take 416.7 sec
+Valid take 34.8 sec
+Epoch 16
+train loss mean: 0.011327788294914532, std: 0.00
+valid loss mean: 0.03073024273689686, std: 0.02
+
+Save model at ep 16, mean of train loss: 0.011327788294914532
+==================================================
+Train take 417.1 sec
+Valid take 35.6 sec
+Epoch 17
+train loss mean: 0.01131281994022615, std: 0.00
+valid loss mean: 0.028305663242799678, std: 0.01
+
+Save model at ep 17, mean of train loss: 0.01131281994022615
+==================================================
+Train take 416.8 sec
+Valid take 34.8 sec
+Epoch 18
+train loss mean: 0.01123535231707736, std: 0.00
+valid loss mean: 0.027916129206003615, std: 0.01
+
+Save model at ep 18, mean of train loss: 0.01123535231707736
+==================================================
+Train take 417.0 sec
+Valid take 34.9 sec
+Epoch 19
+train loss mean: 0.011180494957504465, std: 0.00
+valid loss mean: 0.027311586759534184, std: 0.01
+
+Save model at ep 19, mean of train loss: 0.011180494957504465
+==================================================
+Train take 416.9 sec
+Valid take 35.0 sec
+Epoch 20
+train loss mean: 0.011081789509871234, std: 0.00
+valid loss mean: 0.02756733622661222, std: 0.01
+
+Save model at ep 20, mean of train loss: 0.011081789509871234
+==================================================
+Train take 417.6 sec
+Valid take 35.2 sec
+Epoch 21
+train loss mean: 0.01093412976416837, std: 0.00
+valid loss mean: 0.029200439271431813, std: 0.01
+
+Save model at ep 21, mean of train loss: 0.01093412976416837
+==================================================
+Train take 417.4 sec
+Valid take 35.7 sec
+Epoch 22
+train loss mean: 0.011006907868710248, std: 0.00
+valid loss mean: 0.0292022093335651, std: 0.02
+
+==================================================
+Train take 418.2 sec
+Valid take 34.5 sec
+Epoch 23
+train loss mean: 0.010940726349219351, std: 0.00
+valid loss mean: 0.030369249430072284, std: 0.02
+
+==================================================
+Train take 418.1 sec
+Valid take 35.0 sec
+Epoch 24
+train loss mean: 0.010741296681980313, std: 0.00
+valid loss mean: 0.0292405486055701, std: 0.02
+
+Save model at ep 24, mean of train loss: 0.010741296681980313
+==================================================
+Train take 417.0 sec
+Valid take 34.9 sec
+Epoch 25
+train loss mean: 0.010724067783380708, std: 0.00
+valid loss mean: 0.027425817195189633, std: 0.01
+
+Save model at ep 25, mean of train loss: 0.010724067783380708
+==================================================
+Train take 418.2 sec
+Valid take 35.0 sec
+Epoch 26
+train loss mean: 0.010585729061339389, std: 0.00
+valid loss mean: 0.02724600833714445, std: 0.01
+
+Save model at ep 26, mean of train loss: 0.010585729061339389
+==================================================
+Train take 417.1 sec
+Valid take 34.9 sec
+Epoch 27
+train loss mean: 0.010607393803493752, std: 0.00
+valid loss mean: 0.03070555659498842, std: 0.02
+
+==================================================
+Train take 417.4 sec
+Valid take 34.4 sec
+Epoch 28
+train loss mean: 0.010481881406517176, std: 0.00
+valid loss mean: 0.030126617656809178, std: 0.02
+
+Save model at ep 28, mean of train loss: 0.010481881406517176
+==================================================
+Train take 416.9 sec
+Valid take 34.5 sec
+Epoch 29
+train loss mean: 0.010509385260022767, std: 0.00
+valid loss mean: 0.02758846911959923, std: 0.01
+
+==================================================
+Train take 417.4 sec
+Valid take 34.6 sec
+Epoch 30
+train loss mean: 0.010387255251141722, std: 0.00
+valid loss mean: 0.026774254644582995, std: 0.01
+
+Save model at ep 30, mean of train loss: 0.010387255251141722
+==================================================
+Train take 417.2 sec
+Valid take 36.1 sec
+Epoch 31
+train loss mean: 0.010353189253239633, std: 0.00
+valid loss mean: 0.030161479194631507, std: 0.01
+
+Save model at ep 31, mean of train loss: 0.010353189253239633
+==================================================
+Train take 417.3 sec
+Valid take 34.7 sec
+Epoch 32
+train loss mean: 0.010313789725508395, std: 0.00
+valid loss mean: 0.02723126754253393, std: 0.01
+
+Save model at ep 32, mean of train loss: 0.010313789725508395
+==================================================
+Train take 417.0 sec
+Valid take 35.2 sec
+Epoch 33
+train loss mean: 0.010297166739991313, std: 0.00
+valid loss mean: 0.025374368267242996, std: 0.01
+
+Save model at ep 33, mean of valid loss: 0.025374368267242996
+Save model at ep 33, mean of train loss: 0.010297166739991313
+==================================================
+Train take 416.6 sec
+Valid take 34.7 sec
+Epoch 34
+train loss mean: 0.010248997375012763, std: 0.00
+valid loss mean: 0.026518051287384478, std: 0.01
+
+Save model at ep 34, mean of train loss: 0.010248997375012763
+==================================================
+Train take 416.6 sec
+Valid take 34.9 sec
+Epoch 35
+train loss mean: 0.010193706278042398, std: 0.00
+valid loss mean: 0.027072066492349892, std: 0.01
+
+Save model at ep 35, mean of train loss: 0.010193706278042398
+==================================================
+Train take 417.4 sec
+Valid take 35.4 sec
+Epoch 36
+train loss mean: 0.010180890456780653, std: 0.00
+valid loss mean: 0.026203339501546744, std: 0.01
+
+Save model at ep 36, mean of train loss: 0.010180890456780653
+==================================================
+Train take 416.6 sec
+Valid take 34.5 sec
+Epoch 37
+train loss mean: 0.009877620062802113, std: 0.00
+valid loss mean: 0.028160395752297434, std: 0.01
+
+Save model at ep 37, mean of train loss: 0.009877620062802113
+==================================================
+Train take 416.7 sec
+Valid take 36.0 sec
+Epoch 38
+train loss mean: 0.010036867388459634, std: 0.00
+valid loss mean: 0.025206263447453307, std: 0.01
+
+Save model at ep 38, mean of valid loss: 0.025206263447453307
+==================================================
+Train take 416.8 sec
+Valid take 34.7 sec
+Epoch 39
+train loss mean: 0.00985785074722152, std: 0.00
+valid loss mean: 0.02682060542458416, std: 0.01
+
+Save model at ep 39, mean of train loss: 0.00985785074722152
+==================================================
+Train take 417.9 sec
+Valid take 34.8 sec
+Epoch 40
+train loss mean: 0.009891637214402975, std: 0.00
+valid loss mean: 0.02653783555023181, std: 0.01
+
+==================================================
+Train take 417.6 sec
+Valid take 36.1 sec
+Epoch 41
+train loss mean: 0.009855651142784288, std: 0.00
+valid loss mean: 0.02657977642914478, std: 0.01
+
+Save model at ep 41, mean of train loss: 0.009855651142784288
+==================================================
+Train take 418.1 sec
+Valid take 35.5 sec
+Epoch 42
+train loss mean: 0.009866956925201766, std: 0.00
+valid loss mean: 0.026191610414807723, std: 0.01
+
+==================================================
+Train take 417.7 sec
+Valid take 35.7 sec
+Epoch 43
+train loss mean: 0.009835651446516751, std: 0.00
+valid loss mean: 0.025474081233812448, std: 0.01
+
+Save model at ep 43, mean of train loss: 0.009835651446516751
+==================================================
+Train take 416.8 sec
+Valid take 34.6 sec
+Epoch 44
+train loss mean: 0.009730292183694714, std: 0.00
+valid loss mean: 0.026605322262811246, std: 0.01
+
+Save model at ep 44, mean of train loss: 0.009730292183694714
+==================================================
+Train take 418.0 sec
+Valid take 35.5 sec
+Epoch 45
+train loss mean: 0.009711139071613103, std: 0.00
+valid loss mean: 0.024466241981097304, std: 0.01
+
+Save model at ep 45, mean of valid loss: 0.024466241981097304
+Save model at ep 45, mean of train loss: 0.009711139071613103
+==================================================
+Train take 416.5 sec
+Valid take 34.9 sec
+Epoch 46
+train loss mean: 0.009671309412783444, std: 0.00
+valid loss mean: 0.024358284074622087, std: 0.01
+
+Save model at ep 46, mean of valid loss: 0.024358284074622087
+Save model at ep 46, mean of train loss: 0.009671309412783444
+==================================================
+Train take 416.5 sec
+Valid take 35.4 sec
+Epoch 47
+train loss mean: 0.009684431377923294, std: 0.00
+valid loss mean: 0.023108256010222674, std: 0.01
+
+Save model at ep 47, mean of valid loss: 0.023108256010222674
+==================================================
+Train take 416.4 sec
+Valid take 34.6 sec
+Epoch 48
+train loss mean: 0.009618865880453102, std: 0.00
+valid loss mean: 0.02490319919025341, std: 0.01
+
+Save model at ep 48, mean of train loss: 0.009618865880453102
+==================================================
+Train take 416.6 sec
+Valid take 35.5 sec
+Epoch 49
+train loss mean: 0.00964159232402735, std: 0.00
+valid loss mean: 0.02446208407611146, std: 0.01
+
+==================================================
+Train take 417.8 sec
+Valid take 34.8 sec
+Epoch 50
+train loss mean: 0.009556887392486465, std: 0.00
+valid loss mean: 0.02443037888430905, std: 0.01
+
+Save model at ep 50, mean of train loss: 0.009556887392486465
+==================================================
+Train take 417.8 sec
+Valid take 35.3 sec
+Epoch 51
+train loss mean: 0.009576967806202345, std: 0.00
+valid loss mean: 0.02494410302015806, std: 0.01
+
+==================================================
+Train take 418.6 sec
+Valid take 35.0 sec
+Epoch 52
+train loss mean: 0.009546345787828816, std: 0.00
+valid loss mean: 0.025491844151414686, std: 0.01
+
+Save model at ep 52, mean of train loss: 0.009546345787828816
+==================================================
+Train take 417.8 sec
+Valid take 35.5 sec
+Epoch 53
+train loss mean: 0.009468389804980888, std: 0.00
+valid loss mean: 0.024826961405739024, std: 0.01
+
+Save model at ep 53, mean of train loss: 0.009468389804980888
+==================================================
+Train take 416.8 sec
+Valid take 34.7 sec
+Epoch 54
+train loss mean: 0.009309347729091609, std: 0.00
+valid loss mean: 0.026358154158861863, std: 0.01
+
+Save model at ep 54, mean of train loss: 0.009309347729091609
+==================================================
+Train take 417.2 sec
+Valid take 35.1 sec
+Epoch 55
+train loss mean: 0.00937600198403256, std: 0.00
+valid loss mean: 0.024519833444443705, std: 0.01
+
+==================================================
+Train take 417.9 sec
+Valid take 34.7 sec
+Epoch 56
+train loss mean: 0.009340968710250041, std: 0.00
+valid loss mean: 0.023670306738002068, std: 0.01
+
+==================================================
+Train take 417.2 sec
+Valid take 34.8 sec
+Epoch 57
+train loss mean: 0.00932580533355666, std: 0.00
+valid loss mean: 0.023140242961218287, std: 0.01
+
+==================================================
+Train take 417.7 sec
+Valid take 34.7 sec
+Epoch 58
+train loss mean: 0.009346198042965017, std: 0.00
+valid loss mean: 0.02206832956311194, std: 0.01
+
+Save model at ep 58, mean of valid loss: 0.02206832956311194
+==================================================
+Train take 416.7 sec
+Valid take 34.7 sec
+Epoch 59
+train loss mean: 0.009306721754410675, std: 0.00
+valid loss mean: 0.024405427304379668, std: 0.01
+
+Save model at ep 59, mean of train loss: 0.009306721754410675
+==================================================
+Train take 417.2 sec
+Valid take 34.8 sec
+Epoch 60
+train loss mean: 0.009274798424463776, std: 0.00
+valid loss mean: 0.02377357319058789, std: 0.01
+
+Save model at ep 60, mean of train loss: 0.009274798424463776
+==================================================
+Train take 417.0 sec
+Valid take 35.4 sec
+Epoch 61
+train loss mean: 0.00927473823549884, std: 0.00
+valid loss mean: 0.023895589257812218, std: 0.01
+
+Save model at ep 61, mean of train loss: 0.00927473823549884
+==================================================
+Train take 417.4 sec
+Valid take 35.3 sec
+Epoch 62
+train loss mean: 0.009160041960978683, std: 0.00
+valid loss mean: 0.024449116458277124, std: 0.01
+
+Save model at ep 62, mean of train loss: 0.009160041960978683
+==================================================
+Train take 417.0 sec
+Valid take 35.6 sec
+Epoch 63
+train loss mean: 0.009137790620215316, std: 0.00
+valid loss mean: 0.022601214670763783, std: 0.01
+
+Save model at ep 63, mean of train loss: 0.009137790620215316
+==================================================
+Train take 416.9 sec
+Valid take 35.6 sec
+Epoch 64
+train loss mean: 0.009097789938386787, std: 0.00
+valid loss mean: 0.023332637175235336, std: 0.01
+
+Save model at ep 64, mean of train loss: 0.009097789938386787
+==================================================
+Train take 417.0 sec
+Valid take 35.0 sec
+Epoch 65
+train loss mean: 0.009275177150677563, std: 0.00
+valid loss mean: 0.023096521761977955, std: 0.01
+
+==================================================
+Train take 418.0 sec
+Valid take 35.5 sec
+Epoch 66
+train loss mean: 0.009127546968317453, std: 0.00
+valid loss mean: 0.022743697323403134, std: 0.01
+
+==================================================
+Train take 417.4 sec
+Valid take 35.8 sec
+Epoch 67
+train loss mean: 0.008989150445445638, std: 0.00
+valid loss mean: 0.02301636046044283, std: 0.01
+
+Save model at ep 67, mean of train loss: 0.008989150445445638
+==================================================
+Train take 417.9 sec
+Valid take 35.0 sec
+Epoch 68
+train loss mean: 0.009081866963102425, std: 0.00
+valid loss mean: 0.021726585143406096, std: 0.01
+
+Save model at ep 68, mean of valid loss: 0.021726585143406096
+==================================================
+Train take 416.8 sec
+Valid take 34.7 sec
+Epoch 69
+train loss mean: 0.008965969230942455, std: 0.00
+valid loss mean: 0.023166432901671082, std: 0.01
+
+Save model at ep 69, mean of train loss: 0.008965969230942455
+==================================================
+Train take 417.7 sec
+Valid take 35.8 sec
+Epoch 70
+train loss mean: 0.008949318691804941, std: 0.00
+valid loss mean: 0.02179452277133207, std: 0.01
+
+Save model at ep 70, mean of train loss: 0.008949318691804941
+==================================================
+Train take 417.8 sec
+Valid take 34.8 sec
+Epoch 71
+train loss mean: 0.009047018455974306, std: 0.00
+valid loss mean: 0.022821387269230553, std: 0.01
+
+==================================================
+Train take 417.6 sec
+Valid take 36.1 sec
+Epoch 72
+train loss mean: 0.008857949530848067, std: 0.00
+valid loss mean: 0.023045448477178702, std: 0.01
+
+Save model at ep 72, mean of train loss: 0.008857949530848067
+==================================================
+Train take 416.5 sec
+Valid take 35.0 sec
+Epoch 73
+train loss mean: 0.008943902675280458, std: 0.00
+valid loss mean: 0.02140399060065384, std: 0.01
+
+Save model at ep 73, mean of valid loss: 0.02140399060065384
+==================================================
+Train take 417.0 sec
+Valid take 35.3 sec
+Epoch 74
+train loss mean: 0.008865765077550547, std: 0.00
+valid loss mean: 0.022596638566974702, std: 0.01
+
+==================================================
+Train take 417.3 sec
+Valid take 34.7 sec
+Epoch 75
+train loss mean: 0.00881291791011608, std: 0.00
+valid loss mean: 0.02340828619331067, std: 0.01
+
+Save model at ep 75, mean of train loss: 0.00881291791011608
+==================================================
+Train take 417.0 sec
+Valid take 35.2 sec
+Epoch 76
+train loss mean: 0.008825758931431109, std: 0.00
+valid loss mean: 0.02211729816379428, std: 0.01
+
+==================================================
+Train take 417.1 sec
+Valid take 35.6 sec
+Epoch 77
+train loss mean: 0.008741293948071927, std: 0.00
+valid loss mean: 0.020647511056764222, std: 0.01
+
+Save model at ep 77, mean of valid loss: 0.020647511056764222
+Save model at ep 77, mean of train loss: 0.008741293948071927
+==================================================
+Train take 416.8 sec
+Valid take 36.0 sec
+Epoch 78
+train loss mean: 0.008699248760584994, std: 0.00
+valid loss mean: 0.020906293515675453, std: 0.01
+
+Save model at ep 78, mean of train loss: 0.008699248760584994
+==================================================
+Train take 418.1 sec
+Valid take 35.7 sec
+Epoch 79
+train loss mean: 0.008802728528033233, std: 0.00
+valid loss mean: 0.022044705725087353, std: 0.01
+
+==================================================
+Train take 418.1 sec
+Valid take 35.4 sec
+Epoch 80
+train loss mean: 0.008689926154971345, std: 0.00
+valid loss mean: 0.023857719827811798, std: 0.01
+
+Save model at ep 80, mean of train loss: 0.008689926154971345
+==================================================
+Train take 416.4 sec
+Valid take 35.0 sec
+Epoch 81
+train loss mean: 0.008726579274418502, std: 0.00
+valid loss mean: 0.022223827833371176, std: 0.01
+
+==================================================
+Train take 417.0 sec
+Valid take 35.3 sec
+Epoch 82
+train loss mean: 0.008627297370186039, std: 0.00
+valid loss mean: 0.022428582393438062, std: 0.01
+
+Save model at ep 82, mean of train loss: 0.008627297370186039
+==================================================
+Train take 418.0 sec
+Valid take 34.7 sec
+Epoch 83
+train loss mean: 0.008617746615636133, std: 0.00
+valid loss mean: 0.023816912349709226, std: 0.01
+
+Save model at ep 83, mean of train loss: 0.008617746615636133
+==================================================
+Train take 417.7 sec
+Valid take 35.4 sec
+Epoch 84
+train loss mean: 0.008611129163408773, std: 0.00
+valid loss mean: 0.023197359383283628, std: 0.01
+
+Save model at ep 84, mean of train loss: 0.008611129163408773
+==================================================
+Train take 417.6 sec
+Valid take 34.6 sec
+Epoch 85
+train loss mean: 0.008554759131229984, std: 0.00
+valid loss mean: 0.022697762552914873, std: 0.01
+
+Save model at ep 85, mean of train loss: 0.008554759131229984
+==================================================
+Train take 418.0 sec
+Valid take 34.7 sec
+Epoch 86
+train loss mean: 0.008567745049818446, std: 0.00
+valid loss mean: 0.022209704959348882, std: 0.01
+
+==================================================
+Train take 417.4 sec
+Valid take 35.1 sec
+Epoch 87
+train loss mean: 0.008557869826405603, std: 0.00
+valid loss mean: 0.02320981114052045, std: 0.01
+
+==================================================
+Train take 417.9 sec
+Valid take 35.0 sec
+Epoch 88
+train loss mean: 0.008557168347561608, std: 0.00
+valid loss mean: 0.021535834068971457, std: 0.01
+
+==================================================
+Train take 417.2 sec
+Valid take 35.2 sec
+Epoch 89
+train loss mean: 0.008457401540026674, std: 0.00
+valid loss mean: 0.0235787125239524, std: 0.01
+
+Save model at ep 89, mean of train loss: 0.008457401540026674
+==================================================
+Train take 417.0 sec
+Valid take 34.9 sec
+Epoch 90
+train loss mean: 0.008439713342515465, std: 0.00
+valid loss mean: 0.024569277885291493, std: 0.01
+
+Save model at ep 90, mean of train loss: 0.008439713342515465
+==================================================
+Train take 416.4 sec
+Valid take 34.7 sec
+Epoch 91
+train loss mean: 0.008396585698609774, std: 0.00
+valid loss mean: 0.023781951393202057, std: 0.01
+
+Save model at ep 91, mean of train loss: 0.008396585698609774
+==================================================
+Train take 416.6 sec
+Valid take 34.8 sec
+Epoch 92
+train loss mean: 0.008437194618835865, std: 0.00
+valid loss mean: 0.023596866136491843, std: 0.01
+
+==================================================
+Train take 416.9 sec
+Valid take 34.7 sec
+Epoch 93
+train loss mean: 0.008412150058531064, std: 0.00
+valid loss mean: 0.022629069145632424, std: 0.01
+
+==================================================
+Train take 417.8 sec
+Valid take 35.0 sec
+Epoch 94
+train loss mean: 0.00839277446123078, std: 0.00
+valid loss mean: 0.022187427767712774, std: 0.01
+
+Save model at ep 94, mean of train loss: 0.00839277446123078
+==================================================
+Train take 418.4 sec
+Valid take 36.0 sec
+Epoch 95
+train loss mean: 0.008386497745931223, std: 0.00
+valid loss mean: 0.021796480249340607, std: 0.01
+
+Save model at ep 95, mean of train loss: 0.008386497745931223
+==================================================
+Train take 416.8 sec
+Valid take 35.4 sec
+Epoch 96
+train loss mean: 0.00837901003823631, std: 0.00
+valid loss mean: 0.02193158012371333, std: 0.01
+
+Save model at ep 96, mean of train loss: 0.00837901003823631
+==================================================
+Train take 416.6 sec
+Valid take 35.0 sec
+Epoch 97
+train loss mean: 0.008341478355871054, std: 0.00
+valid loss mean: 0.020635476725639933, std: 0.01
+
+Save model at ep 97, mean of valid loss: 0.020635476725639933
+Save model at ep 97, mean of train loss: 0.008341478355871054
+==================================================
+Train take 416.4 sec
+Valid take 35.8 sec
+Epoch 98
+train loss mean: 0.008289873143485206, std: 0.00
+valid loss mean: 0.020368462653605493, std: 0.01
+
+Save model at ep 98, mean of valid loss: 0.020368462653605493
+Save model at ep 98, mean of train loss: 0.008289873143485206
+==================================================
+Train take 416.7 sec
+Valid take 36.0 sec
+Epoch 99
+train loss mean: 0.00834487198880587, std: 0.00
+valid loss mean: 0.023170532947815545, std: 0.01
+
+==================================================
+Train take 417.6 sec
+Valid take 35.0 sec
+Epoch 100
+train loss mean: 0.008287880378579195, std: 0.00
+valid loss mean: 0.023190618074761752, std: 0.01
+
+Save model at ep 100, mean of train loss: 0.008287880378579195
+==================================================
+Train take 416.5 sec
+Valid take 35.3 sec
+Epoch 101
+train loss mean: 0.008243265366986085, std: 0.00
+valid loss mean: 0.022753007121506956, std: 0.01
+
+Save model at ep 101, mean of train loss: 0.008243265366986085
+==================================================
+Train take 416.9 sec
+Valid take 36.0 sec
+Epoch 102
+train loss mean: 0.008223324398384519, std: 0.00
+valid loss mean: 0.020179441913402887, std: 0.01
+
+Save model at ep 102, mean of valid loss: 0.020179441913402887
+Save model at ep 102, mean of train loss: 0.008223324398384519
+==================================================
+Train take 416.7 sec
+Valid take 35.6 sec
+Epoch 103
+train loss mean: 0.008200312619443869, std: 0.00
+valid loss mean: 0.022414788581608308, std: 0.01
+
+Save model at ep 103, mean of train loss: 0.008200312619443869
+==================================================
+Train take 417.5 sec
+Valid take 35.3 sec
+Epoch 104
+train loss mean: 0.00814909485951837, std: 0.00
+valid loss mean: 0.021108600646155058, std: 0.01
+
+Save model at ep 104, mean of train loss: 0.00814909485951837
+==================================================
+Train take 417.8 sec
+Valid take 35.2 sec
+Epoch 105
+train loss mean: 0.008139702675599528, std: 0.00
+valid loss mean: 0.021477144707894916, std: 0.01
+
+Save model at ep 105, mean of train loss: 0.008139702675599528
+==================================================
+Train take 417.3 sec
+Valid take 34.8 sec
+Epoch 106
+train loss mean: 0.0081430730012064, std: 0.00
+valid loss mean: 0.02250027157461796, std: 0.01
+
+==================================================
+Train take 417.8 sec
+Valid take 36.1 sec
+Epoch 107
+train loss mean: 0.00818849731416845, std: 0.00
+valid loss mean: 0.021738141190922468, std: 0.01
+
+==================================================
+Train take 417.7 sec
+Valid take 35.3 sec
+Epoch 108
+train loss mean: 0.00811947160417069, std: 0.00
+valid loss mean: 0.02209421935501498, std: 0.01
+
+Save model at ep 108, mean of train loss: 0.00811947160417069
+==================================================
+Train take 417.5 sec
+Valid take 35.7 sec
+Epoch 109
+train loss mean: 0.008163043732411208, std: 0.00
+valid loss mean: 0.02193801124126483, std: 0.01
+
+==================================================
+Train take 417.7 sec
+Valid take 35.4 sec
+Epoch 110
+train loss mean: 0.008070788887840597, std: 0.00
+valid loss mean: 0.02225251092094478, std: 0.01
+
+Save model at ep 110, mean of train loss: 0.008070788887840597
+==================================================
+Train take 416.9 sec
+Valid take 35.8 sec
+Epoch 111
+train loss mean: 0.008032881538300568, std: 0.00
+valid loss mean: 0.02126221921833935, std: 0.01
+
+Save model at ep 111, mean of train loss: 0.008032881538300568
+==================================================
+Train take 416.9 sec
+Valid take 36.0 sec
+Epoch 112
+train loss mean: 0.008035654362808278, std: 0.00
+valid loss mean: 0.02276251474804767, std: 0.01
+
+==================================================
+Train take 417.5 sec
+Valid take 35.0 sec
+Epoch 113
+train loss mean: 0.008097229190908644, std: 0.00
+valid loss mean: 0.020849824354270876, std: 0.01
+
+==================================================
+Train take 418.1 sec
+Valid take 35.3 sec
+Epoch 114
+train loss mean: 0.007934424141721054, std: 0.00
+valid loss mean: 0.021712073939425987, std: 0.01
+
+Save model at ep 114, mean of train loss: 0.007934424141721054
+==================================================
+Train take 417.2 sec
+Valid take 35.5 sec
+Epoch 115
+train loss mean: 0.008069360211423779, std: 0.00
+valid loss mean: 0.021092604638517393, std: 0.01
+
+==================================================
+Train take 418.1 sec
+Valid take 35.5 sec
+Epoch 116
+train loss mean: 0.007990915297353102, std: 0.00
+valid loss mean: 0.021743879459061467, std: 0.01
+
+==================================================
+Train take 417.7 sec
+Valid take 36.6 sec
+Epoch 117
+train loss mean: 0.008010194526531924, std: 0.00
+valid loss mean: 0.022411454253192076, std: 0.01
+
+==================================================
+Train take 417.2 sec
+Valid take 35.5 sec
+Epoch 118
+train loss mean: 0.008012558645179906, std: 0.00
+valid loss mean: 0.022777231072413397, std: 0.01
+
+==================================================
+Train take 417.7 sec
+Valid take 34.7 sec
+Epoch 119
+train loss mean: 0.007914046065245012, std: 0.00
+valid loss mean: 0.020915788984703986, std: 0.01
+
+Save model at ep 119, mean of train loss: 0.007914046065245012
+==================================================
+Train take 417.5 sec
+Valid take 34.8 sec
+Epoch 120
+train loss mean: 0.007881465976556588, std: 0.00
+valid loss mean: 0.02183939779566212, std: 0.01
+
+Save model at ep 120, mean of train loss: 0.007881465976556588
+==================================================
+Train take 416.6 sec
+Valid take 36.2 sec
+Epoch 121
+train loss mean: 0.00793188415965641, std: 0.00
+valid loss mean: 0.020224486578310476, std: 0.01
+
+==================================================
+Train take 417.6 sec
+Valid take 36.3 sec
+Epoch 122
+train loss mean: 0.007826310582292785, std: 0.00
+valid loss mean: 0.022491518365417098, std: 0.01
+
+Save model at ep 122, mean of train loss: 0.007826310582292785
+==================================================
+Train take 417.1 sec
+Valid take 35.4 sec
+Epoch 123
+train loss mean: 0.00791157204106046, std: 0.00
+valid loss mean: 0.02142273728657282, std: 0.01
+
+==================================================
+Train take 417.6 sec
+Valid take 35.7 sec
+Epoch 124
+train loss mean: 0.007887734272061906, std: 0.00
+valid loss mean: 0.021788797325935666, std: 0.01
+
+==================================================
+Train take 418.9 sec
+Valid take 36.0 sec
+Epoch 125
+train loss mean: 0.007813365292900921, std: 0.00
+valid loss mean: 0.021411538184637497, std: 0.01
+
+Save model at ep 125, mean of train loss: 0.007813365292900921
+==================================================
+Train take 417.2 sec
+Valid take 35.9 sec
+Epoch 126
+train loss mean: 0.007821758196946449, std: 0.00
+valid loss mean: 0.021986329678152672, std: 0.01
+
+==================================================
+Train take 419.3 sec
+Valid take 35.3 sec
+Epoch 127
+train loss mean: 0.0077599240202711976, std: 0.00
+valid loss mean: 0.021217261434229084, std: 0.01
+
+Save model at ep 127, mean of train loss: 0.0077599240202711976
+==================================================
+Train take 418.9 sec
+Valid take 35.3 sec
+Epoch 128
+train loss mean: 0.007825567981834489, std: 0.00
+valid loss mean: 0.02111823014887698, std: 0.01
+
+==================================================
+Train take 418.3 sec
+Valid take 35.5 sec
+Epoch 129
+train loss mean: 0.007747227468625572, std: 0.00
+valid loss mean: 0.02144499753018493, std: 0.01
+
+Save model at ep 129, mean of train loss: 0.007747227468625572
+==================================================
+Train take 419.5 sec
+Valid take 36.1 sec
+Epoch 130
+train loss mean: 0.007780384827075495, std: 0.00
+valid loss mean: 0.020414033520032033, std: 0.01
+
+==================================================
+Train take 418.3 sec
+Valid take 35.5 sec
+Epoch 131
+train loss mean: 0.007730188686799505, std: 0.00
+valid loss mean: 0.020424230797762125, std: 0.01
+
+Save model at ep 131, mean of train loss: 0.007730188686799505
+==================================================
+Train take 418.5 sec
+Valid take 36.1 sec
+Epoch 132
+train loss mean: 0.007766942040254226, std: 0.00
+valid loss mean: 0.020425996942711726, std: 0.01
+
+==================================================
+Train take 418.4 sec
+Valid take 35.9 sec
+Epoch 133
+train loss mean: 0.00772624124249684, std: 0.00
+valid loss mean: 0.020825472563989596, std: 0.01
+
+Save model at ep 133, mean of train loss: 0.00772624124249684
+==================================================
+Train take 417.8 sec
+Valid take 36.2 sec
+Epoch 134
+train loss mean: 0.007746310123368076, std: 0.00
+valid loss mean: 0.021585609772389297, std: 0.01
+
+==================================================
+Train take 418.9 sec
+Valid take 36.0 sec
+Epoch 135
+train loss mean: 0.007657976865769762, std: 0.00
+valid loss mean: 0.02107912235323599, std: 0.01
+
+Save model at ep 135, mean of train loss: 0.007657976865769762
+==================================================
+Train take 419.2 sec
+Valid take 35.9 sec
+Epoch 136
+train loss mean: 0.007692112801942195, std: 0.00
+valid loss mean: 0.021708476718774426, std: 0.01
+
+==================================================
+Train take 418.6 sec
+Valid take 36.2 sec
+Epoch 137
+train loss mean: 0.00767910800695414, std: 0.00
+valid loss mean: 0.0210008907955713, std: 0.01
+
+==================================================
+Train take 418.6 sec
+Valid take 35.6 sec
+Epoch 138
+train loss mean: 0.0077375773477403285, std: 0.00
+valid loss mean: 0.02045288642411267, std: 0.01
+
+==================================================
+Train take 418.8 sec
+Valid take 36.5 sec
+Epoch 139
+train loss mean: 0.007651626616038334, std: 0.00
+valid loss mean: 0.020036989357322454, std: 0.01
+
+Save model at ep 139, mean of valid loss: 0.020036989357322454
+Save model at ep 139, mean of train loss: 0.007651626616038334
+==================================================
+Train take 417.8 sec
+Valid take 36.0 sec
+Epoch 140
+train loss mean: 0.007585812558145459, std: 0.00
+valid loss mean: 0.020786330459516618, std: 0.01
+
+Save model at ep 140, mean of train loss: 0.007585812558145459
+==================================================
+Train take 418.9 sec
+Valid take 35.9 sec
+Epoch 141
+train loss mean: 0.007690404821984964, std: 0.00
+valid loss mean: 0.020368708280553094, std: 0.01
+
+==================================================
+Train take 418.9 sec
+Valid take 35.6 sec
+Epoch 142
+train loss mean: 0.007654916992820507, std: 0.00
+valid loss mean: 0.022241790724351947, std: 0.01
+
+==================================================
+Train take 419.1 sec
+Valid take 36.4 sec
+Epoch 143
+train loss mean: 0.007642743659659763, std: 0.00
+valid loss mean: 0.020804048306052828, std: 0.01
+
+==================================================
+Train take 419.1 sec
+Valid take 36.0 sec
+Epoch 144
+train loss mean: 0.0076075981345844, std: 0.00
+valid loss mean: 0.02058112308734366, std: 0.01
+
+==================================================
+Train take 418.1 sec
+Valid take 35.9 sec
+Epoch 145
+train loss mean: 0.0075833032495653966, std: 0.00
+valid loss mean: 0.020577518228482413, std: 0.01
+
+Save model at ep 145, mean of train loss: 0.0075833032495653966
+==================================================
+Train take 418.0 sec
+Valid take 35.4 sec
+Epoch 146
+train loss mean: 0.007551548612981418, std: 0.00
+valid loss mean: 0.020952367112927493, std: 0.01
+
+Save model at ep 146, mean of train loss: 0.007551548612981418
+==================================================
+Train take 417.8 sec
+Valid take 35.9 sec
+Epoch 147
+train loss mean: 0.0075053988422781, std: 0.00
+valid loss mean: 0.020962762941466474, std: 0.01
+
+Save model at ep 147, mean of train loss: 0.0075053988422781
+==================================================
+Train take 418.5 sec
+Valid take 36.0 sec
+Epoch 148
+train loss mean: 0.007531595602664806, std: 0.00
+valid loss mean: 0.020305086454315172, std: 0.01
+
+==================================================
+Train take 419.1 sec
+Valid take 35.7 sec
+Epoch 149
+train loss mean: 0.007504845724250326, std: 0.00
+valid loss mean: 0.020289374981075525, std: 0.01
+
+Save model at ep 149, mean of train loss: 0.007504845724250326
+==================================================
+Train take 417.6 sec
+Valid take 35.8 sec
+Epoch 150
+train loss mean: 0.007524748701405453, std: 0.00
+valid loss mean: 0.020206428572173904, std: 0.01
+
+==================================================
+Train take 418.8 sec
+Valid take 36.1 sec
+Epoch 151
+train loss mean: 0.007441190626807271, std: 0.00
+valid loss mean: 0.020696258157041375, std: 0.01
+
+Save model at ep 151, mean of train loss: 0.007441190626807271
+==================================================
+Train take 417.4 sec
+Valid take 35.9 sec
+Epoch 152
+train loss mean: 0.007523317004173069, std: 0.00
+valid loss mean: 0.02008242953155913, std: 0.01
+
+==================================================
+Train take 419.5 sec
+Valid take 36.1 sec
+Epoch 153
+train loss mean: 0.007442914565053266, std: 0.00
+valid loss mean: 0.020372434096213008, std: 0.01
+
+==================================================
+Train take 418.6 sec
+Valid take 35.6 sec
+Epoch 154
+train loss mean: 0.0074757183044430915, std: 0.00
+valid loss mean: 0.021789484307674807, std: 0.01
+
+==================================================
+Train take 419.1 sec
+Valid take 35.8 sec
+Epoch 155
+train loss mean: 0.007431451605166243, std: 0.00
+valid loss mean: 0.020933410490525294, std: 0.01
+
+Save model at ep 155, mean of train loss: 0.007431451605166243
+==================================================
+Train take 417.6 sec
+Valid take 35.3 sec
+Epoch 156
+train loss mean: 0.007441614189788136, std: 0.00
+valid loss mean: 0.019637953878922778, std: 0.01
+
+Save model at ep 156, mean of valid loss: 0.019637953878922778
+==================================================
+Train take 418.7 sec
+Valid take 36.0 sec
+Epoch 157
+train loss mean: 0.0073490808717906475, std: 0.00
+valid loss mean: 0.021251110312266227, std: 0.01
+
+Save model at ep 157, mean of train loss: 0.0073490808717906475
+==================================================
+Train take 418.6 sec
+Valid take 35.7 sec
+Epoch 158
+train loss mean: 0.007375548524399162, std: 0.00
+valid loss mean: 0.02050591455926034, std: 0.01
+
+==================================================
+Train take 419.0 sec
+Valid take 35.9 sec
+Epoch 159
+train loss mean: 0.007387605853721786, std: 0.00
+valid loss mean: 0.02104615551955152, std: 0.01
+
+==================================================
+Train take 418.1 sec
+Valid take 35.7 sec
+Epoch 160
+train loss mean: 0.007336424194677845, std: 0.00
+valid loss mean: 0.020765556679226648, std: 0.01
+
+Save model at ep 160, mean of train loss: 0.007336424194677845
+==================================================
+Train take 418.3 sec
+Valid take 35.3 sec
+Epoch 161
+train loss mean: 0.007376657114520424, std: 0.00
+valid loss mean: 0.020336694474717528, std: 0.01
+
+==================================================
+Train take 418.7 sec
+Valid take 35.8 sec
+Epoch 162
+train loss mean: 0.007390906864765242, std: 0.00
+valid loss mean: 0.0204514444075634, std: 0.01
+
+==================================================
+Train take 419.3 sec
+Valid take 35.6 sec
+Epoch 163
+train loss mean: 0.0073212940717178486, std: 0.00
+valid loss mean: 0.0204665768958096, std: 0.01
+
+Save model at ep 163, mean of train loss: 0.0073212940717178486
+==================================================
+Train take 418.5 sec
+Valid take 36.2 sec
+Epoch 164
+train loss mean: 0.007344106698028483, std: 0.00
+valid loss mean: 0.02053258016760096, std: 0.01
+
+==================================================
+Train take 418.5 sec
+Valid take 35.5 sec
+Epoch 165
+train loss mean: 0.00732137176918157, std: 0.00
+valid loss mean: 0.020045867017487357, std: 0.01
+
+==================================================
+Train take 418.1 sec
+Valid take 35.6 sec
+Epoch 166
+train loss mean: 0.007285870177249858, std: 0.00
+valid loss mean: 0.021372462865886288, std: 0.01
+
+Save model at ep 166, mean of train loss: 0.007285870177249858
+==================================================
+Train take 418.3 sec
+Valid take 36.1 sec
+Epoch 167
+train loss mean: 0.007337531202348437, std: 0.00
+valid loss mean: 0.020516803068528464, std: 0.01
+
+==================================================
+Train take 418.5 sec
+Valid take 37.7 sec
+Epoch 168
+train loss mean: 0.0072958367964123865, std: 0.00
+valid loss mean: 0.02098395799938248, std: 0.01
+
+==================================================
+Train take 418.8 sec
+Valid take 35.8 sec
+Epoch 169
+train loss mean: 0.007295003037189773, std: 0.00
+valid loss mean: 0.020959194141504912, std: 0.01
+
+==================================================
+Train take 419.1 sec
+Valid take 36.6 sec
+Epoch 170
+train loss mean: 0.007225915792761776, std: 0.00
+valid loss mean: 0.01886863364230828, std: 0.01
+
+Save model at ep 170, mean of valid loss: 0.01886863364230828
+Save model at ep 170, mean of train loss: 0.007225915792761776
+==================================================
+Train take 418.2 sec
+Valid take 35.8 sec
+Epoch 171
+train loss mean: 0.0072599102094500914, std: 0.00
+valid loss mean: 0.021078266278455108, std: 0.01
+
+==================================================
+Train take 417.9 sec
+Valid take 36.1 sec
+Epoch 172
+train loss mean: 0.007262793379894948, std: 0.00
+valid loss mean: 0.020199002958185996, std: 0.01
+
+==================================================
+Train take 418.8 sec
+Valid take 36.0 sec
+Epoch 173
+train loss mean: 0.007243657602977106, std: 0.00
+valid loss mean: 0.020828397961626777, std: 0.01
+
+==================================================
+Train take 418.6 sec
+Valid take 35.7 sec
+Epoch 174
+train loss mean: 0.007194274319349114, std: 0.00
+valid loss mean: 0.02083570078260951, std: 0.01
+
+Save model at ep 174, mean of train loss: 0.007194274319349114
+==================================================
+Train take 418.0 sec
+Valid take 35.8 sec
+Epoch 175
+train loss mean: 0.007165298070446146, std: 0.00
+valid loss mean: 0.01988853489802707, std: 0.01
+
+Save model at ep 175, mean of train loss: 0.007165298070446146
+==================================================
+Train take 418.4 sec
+Valid take 36.8 sec
+Epoch 176
+train loss mean: 0.00720982427783922, std: 0.00
+valid loss mean: 0.01949813984583504, std: 0.01
+
+==================================================
+Train take 418.3 sec
+Valid take 36.0 sec
+Epoch 177
+train loss mean: 0.007172968270666605, std: 0.00
+valid loss mean: 0.01938931058048383, std: 0.01
+
+==================================================
+Train take 419.1 sec
+Valid take 36.0 sec
+Epoch 178
+train loss mean: 0.00710341650617045, std: 0.00
+valid loss mean: 0.01945982823462222, std: 0.01
+
+Save model at ep 178, mean of train loss: 0.00710341650617045
+==================================================
+Train take 418.3 sec
+Valid take 36.5 sec
+Epoch 179
+train loss mean: 0.007137141407678152, std: 0.00
+valid loss mean: 0.019786392081010365, std: 0.01
+
+==================================================
+Train take 418.9 sec
+Valid take 36.0 sec
+Epoch 180
+train loss mean: 0.007117303950329185, std: 0.00
+valid loss mean: 0.020685882343409154, std: 0.01
+
+==================================================
+Train take 418.2 sec
+Valid take 35.7 sec
+Epoch 181
+train loss mean: 0.007115896302790545, std: 0.00
+valid loss mean: 0.019696515648806596, std: 0.01
+
+==================================================
+Train take 419.1 sec
+Valid take 36.7 sec
+Epoch 182
+train loss mean: 0.007174201214787079, std: 0.00
+valid loss mean: 0.020096580632672313, std: 0.01
+
+==================================================
+Train take 418.0 sec
+Valid take 35.5 sec
+Epoch 183
+train loss mean: 0.007037382302499994, std: 0.00
+valid loss mean: 0.02069326106206456, std: 0.01
+
+Save model at ep 183, mean of train loss: 0.007037382302499994
+==================================================
+Train take 418.2 sec
+Valid take 35.9 sec
+Epoch 184
+train loss mean: 0.007137181602789356, std: 0.00
+valid loss mean: 0.020423988386947704, std: 0.01
+
+==================================================
+Train take 418.6 sec
+Valid take 36.0 sec
+Epoch 185
+train loss mean: 0.007073263447435253, std: 0.00
+valid loss mean: 0.020500701728478184, std: 0.01
+
+==================================================
+Train take 419.0 sec
+Valid take 36.6 sec
+Epoch 186
+train loss mean: 0.007026673276821613, std: 0.00
+valid loss mean: 0.018630813950529464, std: 0.01
+
+Save model at ep 186, mean of valid loss: 0.018630813950529464
+Save model at ep 186, mean of train loss: 0.007026673276821613
+==================================================
+Train take 418.2 sec
+Valid take 35.6 sec
+Epoch 187
+train loss mean: 0.007107598961348899, std: 0.00
+valid loss mean: 0.020265989494254136, std: 0.01
+
+==================================================

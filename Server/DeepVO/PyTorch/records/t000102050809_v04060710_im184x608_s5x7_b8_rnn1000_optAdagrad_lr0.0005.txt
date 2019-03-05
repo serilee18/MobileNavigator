@@ -1,0 +1,874 @@
+
+==================================================
+data_dir: KITTI
+valid_video: ['04', '06', '07', '10']
+minus_point_5: True
+rnn_hidden_size: 1000
+resume_t_or_v: .train
+rnn_dropout_out: 0.5
+pose_dir: KITTI/pose_GT/
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+train_video: ['00', '01', '02', '05', '08', '09']
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+seq_len: (5, 7)
+img_h: 184
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+clip: None
+resume: True
+pretrained_flownet: None
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+partition: None
+epochs: 250
+pin_mem: True
+batch_norm: True
+n_processors: 8
+resize_mode: rescale
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+sample_times: 3
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+rnn_dropout_between: 0
+image_dir: KITTI/images/
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+batch_size: 8
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+img_w: 608
+==================================================
+
+==================================================
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+minus_point_5: True
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+epochs: 250
+image_dir: KITTI/images/
+sample_times: 3
+resume: True
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+train_video: ['00', '01', '02', '05', '08', '09']
+pretrained_flownet: None
+batch_size: 8
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+rnn_dropout_between: 0
+resize_mode: rescale
+resume_t_or_v: .train
+rnn_dropout_out: 0.5
+img_h: 184
+clip: None
+pin_mem: True
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+batch_norm: True
+valid_video: ['04', '06', '07', '10']
+img_w: 608
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+data_dir: KITTI
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+seq_len: (5, 7)
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+pose_dir: KITTI/pose_GT/
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+rnn_hidden_size: 1000
+partition: None
+n_processors: 8
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+==================================================
+
+==================================================
+n_processors: 8
+partition: None
+img_w: 608
+rnn_hidden_size: 1000
+resume_t_or_v: .train
+resize_mode: rescale
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+rnn_dropout_between: 0
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+seq_len: (5, 7)
+pin_mem: True
+batch_norm: True
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+pretrained_flownet: None
+sample_times: 3
+rnn_dropout_out: 0.5
+image_dir: KITTI/images/
+valid_video: ['04', '06', '07', '10']
+epochs: 250
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+img_h: 184
+resume: True
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+data_dir: KITTI
+batch_size: 8
+clip: None
+train_video: ['00', '01', '02', '05', '08', '09']
+minus_point_5: True
+pose_dir: KITTI/pose_GT/
+==================================================
+
+==================================================
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+img_w: 608
+resize_mode: rescale
+seq_len: (5, 7)
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+batch_norm: True
+clip: None
+resume_t_or_v: .train
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+partition: None
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+sample_times: 3
+train_video: ['00', '01', '02', '05', '08', '09']
+image_dir: KITTI/images/
+pretrained_flownet: None
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+pin_mem: True
+img_h: 184
+valid_video: ['04', '06', '07', '10']
+rnn_dropout_between: 0
+batch_size: 8
+data_dir: KITTI
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+minus_point_5: True
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+epochs: 250
+pose_dir: KITTI/pose_GT/
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+rnn_dropout_out: 0.5
+rnn_hidden_size: 1000
+n_processors: 8
+resume: True
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+==================================================
+
+==================================================
+train_video: ['00', '01', '02', '05', '08', '09']
+pin_mem: True
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+img_h: 184
+resume_t_or_v: .train
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+rnn_hidden_size: 1000
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+data_dir: KITTI
+rnn_dropout_between: 0
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+valid_video: ['04', '06', '07', '10']
+pose_dir: KITTI/pose_GT/
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+resume: True
+clip: None
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+image_dir: KITTI/images/
+pretrained_flownet: None
+batch_norm: True
+rnn_dropout_out: 0.5
+resize_mode: rescale
+epochs: 250
+minus_point_5: True
+n_processors: 8
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+seq_len: (5, 7)
+batch_size: 8
+partition: None
+sample_times: 3
+img_w: 608
+==================================================
+
+==================================================
+pin_mem: True
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+rnn_dropout_between: 0
+data_dir: KITTI
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+n_processors: 8
+clip: None
+pretrained_flownet: None
+train_video: ['00', '01', '02', '05', '08', '09']
+batch_norm: True
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+resume_t_or_v: .train
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_video: ['04', '06', '07', '10']
+image_dir: KITTI/images/
+resize_mode: rescale
+epochs: 250
+rnn_hidden_size: 1000
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+minus_point_5: True
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+pose_dir: KITTI/pose_GT/
+rnn_dropout_out: 0.5
+batch_size: 8
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+partition: None
+seq_len: (5, 7)
+resume: True
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+img_w: 608
+img_h: 184
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+sample_times: 3
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+==================================================
+
+==================================================
+valid_video: ['04', '06', '07', '10']
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+sample_times: 3
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+rnn_dropout_between: 0
+rnn_hidden_size: 1000
+minus_point_5: True
+batch_size: 8
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+seq_len: (5, 7)
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+rnn_dropout_out: 0.5
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+pose_dir: KITTI/pose_GT/
+img_w: 608
+pin_mem: True
+image_dir: KITTI/images/
+train_video: ['00', '01', '02', '05', '08', '09']
+epochs: 250
+clip: None
+resume: True
+n_processors: 8
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+img_h: 184
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+partition: None
+batch_norm: True
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+resume_t_or_v: .train
+data_dir: KITTI
+resize_mode: crop
+==================================================
+
+==================================================
+img_h: 184
+rnn_dropout_between: 0
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+epochs: 250
+minus_point_5: True
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+partition: None
+rnn_hidden_size: 1000
+image_dir: KITTI/images/
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+valid_video: ['04', '06', '07', '10']
+resume: True
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+clip: None
+batch_size: 8
+n_processors: 8
+resize_mode: crop
+train_video: ['00', '01', '02', '05', '08', '09']
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+pose_dir: KITTI/pose_GT/
+rnn_dropout_out: 0.5
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+seq_len: (5, 7)
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+sample_times: 3
+resume_t_or_v: .train
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+data_dir: KITTI
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+img_w: 608
+pin_mem: True
+batch_norm: True
+==================================================
+
+==================================================
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+clip: None
+resize_mode: crop
+image_dir: KITTI/images/
+img_w: 608
+resume: True
+pin_mem: True
+rnn_dropout_between: 0
+img_h: 184
+n_processors: 8
+valid_video: ['04', '06', '07', '10']
+sample_times: 3
+batch_norm: True
+train_video: ['00', '01', '02', '05', '08', '09']
+seq_len: (5, 7)
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+pose_dir: KITTI/pose_GT/
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+partition: None
+epochs: 250
+minus_point_5: True
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+batch_size: 8
+resume_t_or_v: .train
+data_dir: KITTI
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+rnn_dropout_out: 0.5
+rnn_hidden_size: 1000
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+==================================================
+
+==================================================
+image_dir: KITTI/images/
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+partition: None
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+minus_point_5: True
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+batch_norm: True
+pin_mem: True
+epochs: 250
+clip: None
+resume: True
+rnn_dropout_between: 0
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+sample_times: 3
+img_h: 184
+train_video: ['00', '01', '02', '05', '08', '09']
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+batch_size: 8
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+rnn_dropout_out: 0.5
+data_dir: KITTI
+img_w: 608
+resize_mode: crop
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+resume_t_or_v: .train
+rnn_hidden_size: 1000
+valid_video: ['04', '06', '07', '10']
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+pose_dir: KITTI/pose_GT/
+n_processors: 8
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+seq_len: (5, 7)
+==================================================
+
+==================================================
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+resume: True
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+pin_mem: True
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+epochs: 250
+resume_t_or_v: .train
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+image_dir: KITTI/images/
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+n_processors: 8
+pose_dir: KITTI/pose_GT/
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+rnn_hidden_size: 1000
+data_dir: KITTI
+img_w: 608
+train_video: ['00', '01', '02', '05', '08', '09']
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+seq_len: (5, 7)
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+batch_norm: True
+batch_size: 8
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+minus_point_5: True
+img_h: 184
+resize_mode: crop
+sample_times: 3
+valid_video: ['04', '06', '07', '10']
+rnn_dropout_between: 0
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+rnn_dropout_out: 0.5
+clip: None
+partition: None
+==================================================
+
+==================================================
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+resume_t_or_v: .train
+rnn_hidden_size: 1000
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+pose_dir: KITTI/pose_GT/
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+clip: None
+train_video: ['00', '01', '02', '05', '08', '09']
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+rnn_dropout_out: 0.5
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+resume: True
+valid_video: ['04', '06', '07', '10']
+data_dir: KITTI
+batch_size: 8
+resize_mode: crop
+minus_point_5: True
+batch_norm: True
+seq_len: (5, 7)
+partition: None
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+pin_mem: True
+epochs: 250
+rnn_dropout_between: 0
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+n_processors: 8
+sample_times: 3
+img_w: 608
+image_dir: KITTI/images/
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+img_h: 184
+==================================================
+
+==================================================
+rnn_dropout_out: 0.5
+pose_dir: KITTI/pose_GT/
+valid_video: ['04', '06', '07', '10']
+rnn_dropout_between: 0
+train_video: ['00', '01', '02', '05', '08', '09']
+n_processors: 8
+clip: None
+resume: True
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+img_w: 608
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+rnn_hidden_size: 1000
+pin_mem: True
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+epochs: 250
+batch_size: 8
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+minus_point_5: True
+img_h: 184
+sample_times: 3
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+partition: None
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+resume_t_or_v: .train
+data_dir: KITTI
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+resize_mode: crop
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+batch_norm: True
+seq_len: (5, 7)
+image_dir: KITTI/images/
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+==================================================
+
+==================================================
+sample_times: 3
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+pose_dir: KITTI/pose_GT/
+minus_point_5: True
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+img_w: 608
+rnn_dropout_between: 0
+resume: True
+batch_norm: True
+img_h: 184
+resize_mode: crop
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+data_dir: KITTI
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+seq_len: (5, 7)
+rnn_hidden_size: 1000
+clip: None
+valid_video: ['04', '06', '07', '10']
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+partition: None
+image_dir: KITTI/images/
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+rnn_dropout_out: 0.5
+train_video: ['00', '01', '02', '05', '08', '09']
+batch_size: 8
+n_processors: 8
+epochs: 250
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+pin_mem: True
+resume_t_or_v: .train
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+==================================================
+
+==================================================
+seq_len: (5, 7)
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+batch_size: 8
+pin_mem: True
+img_w: 608
+partition: None
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+clip: None
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+minus_point_5: True
+sample_times: 3
+valid_video: ['04', '06', '07', '10']
+pose_dir: KITTI/pose_GT/
+data_dir: KITTI
+resume: True
+resize_mode: crop
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+train_video: ['00', '01', '02', '05', '08', '09']
+rnn_dropout_out: 0.5
+resume_t_or_v: .train
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+epochs: 250
+img_h: 184
+n_processors: 8
+batch_norm: True
+image_dir: KITTI/images/
+rnn_hidden_size: 1000
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+rnn_dropout_between: 0
+==================================================
+
+==================================================
+batch_norm: True
+rnn_hidden_size: 1000
+pin_mem: True
+train_video: ['00', '01', '02', '05', '08', '09']
+epochs: 250
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+data_dir: KITTI
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+resize_mode: crop
+n_processors: 8
+clip: None
+seq_len: (5, 7)
+rnn_dropout_out: 0.5
+resume: True
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+pose_dir: KITTI/pose_GT/
+image_dir: KITTI/images/
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+valid_video: ['04', '06', '07', '10']
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+img_w: 608
+rnn_dropout_between: 0
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+partition: None
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+resume_t_or_v: .train
+batch_size: 8
+img_h: 184
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+sample_times: 3
+minus_point_5: True
+==================================================
+
+==================================================
+image_dir: KITTI/images/
+rnn_hidden_size: 1000
+resize_mode: crop
+n_processors: 8
+epochs: 250
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+img_w: 608
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+data_dir: KITTI
+clip: None
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+resume: True
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+img_h: 184
+resume_t_or_v: .train
+train_video: ['00', '01', '02', '05', '08', '09']
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+pose_dir: KITTI/pose_GT/
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+batch_size: 8
+sample_times: 3
+rnn_dropout_out: 0.5
+rnn_dropout_between: 0
+valid_video: ['04', '06', '07', '10']
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+partition: None
+minus_point_5: True
+seq_len: (5, 7)
+pin_mem: True
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+batch_norm: True
+==================================================
+
+==================================================
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+img_w: 608
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+rnn_dropout_between: 0
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+valid_video: ['04', '06', '07', '10']
+epochs: 250
+sample_times: 3
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+minus_point_5: True
+rnn_hidden_size: 1000
+partition: None
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+clip: None
+resume: True
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+rnn_dropout_out: 0.5
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+pose_dir: KITTI/pose_GT/
+resume_t_or_v: .train
+pin_mem: True
+data_dir: KITTI
+img_h: 184
+train_video: ['00', '01', '02', '05', '08', '09']
+seq_len: (5, 7)
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+image_dir: KITTI/images/
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+resize_mode: crop
+batch_size: 8
+n_processors: 8
+batch_norm: True
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+==================================================
+
+==================================================
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+rnn_hidden_size: 1000
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+img_w: 608
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+batch_norm: True
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+minus_point_5: True
+rnn_dropout_out: 0.5
+pose_dir: KITTI/pose_GT/
+clip: None
+resume: True
+resize_mode: crop
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+seq_len: (5, 7)
+sample_times: 3
+img_h: 184
+rnn_dropout_between: 0
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+image_dir: KITTI/images/
+batch_size: 8
+n_processors: 8
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+train_video: ['00', '01', '02', '05', '08', '09']
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+epochs: 250
+pin_mem: True
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+partition: None
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+resume_t_or_v: .train
+valid_video: ['04', '06', '07', '10']
+data_dir: KITTI
+==================================================
+
+==================================================
+n_processors: 8
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+epochs: 250
+data_dir: KITTI
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_video: ['04', '06', '07', '10']
+rnn_dropout_between: 0
+rnn_hidden_size: 1000
+train_video: ['00', '01', '02', '05', '08', '09']
+minus_point_5: True
+partition: None
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+img_h: 184
+batch_norm: True
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+pose_dir: KITTI/pose_GT/
+sample_times: 3
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+image_dir: KITTI/images/
+resume_t_or_v: .train
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+resize_mode: crop
+rnn_dropout_out: 0.5
+batch_size: 8
+pin_mem: True
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+resume: True
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+seq_len: (5, 7)
+clip: None
+img_w: 608
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+==================================================
+
+==================================================
+n_processors: 8
+clip: None
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+rnn_hidden_size: 1000
+minus_point_5: True
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+sample_times: 3
+valid_video: ['04', '06', '07', '10']
+partition: None
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+image_dir: KITTI/images/
+pin_mem: True
+rnn_dropout_between: 0
+resume: True
+epochs: 250
+resume_t_or_v: .train
+rnn_dropout_out: 0.5
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+resize_mode: crop
+img_w: 608
+pose_dir: KITTI/pose_GT/
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+seq_len: (5, 7)
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+img_h: 184
+train_video: ['00', '01', '02', '05', '08', '09']
+batch_size: 8
+data_dir: KITTI
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+batch_norm: True
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+==================================================
+
+==================================================
+sample_times: 3
+rnn_dropout_between: 0
+pin_mem: True
+partition: None
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+valid_video: ['04', '06', '07', '10']
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+minus_point_5: True
+image_dir: KITTI/images/
+batch_norm: True
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+resize_mode: crop
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+seq_len: (5, 7)
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+img_w: 608
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+resume_t_or_v: .train
+img_h: 184
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+batch_size: 8
+train_video: ['00', '01', '02', '05', '08', '09']
+n_processors: 8
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+epochs: 250
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+pose_dir: KITTI/pose_GT/
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+data_dir: KITTI
+clip: None
+rnn_hidden_size: 1000
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+resume: True
+rnn_dropout_out: 0.5
+==================================================
+
+==================================================
+minus_point_5: True
+pin_mem: True
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model
+resume_t_or_v: .train
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer
+pose_dir: KITTI/pose_GT/
+img_w: 608
+valid_video: ['04', '06', '07', '10']
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+rnn_dropout_between: 0
+epochs: 250
+seq_len: (5, 7)
+rnn_dropout_out: 0.5
+rnn_hidden_size: 1000
+clip: None
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.model.train
+batch_norm: True
+train_video: ['00', '01', '02', '05', '08', '09']
+resume: True
+n_processors: 8
+partition: None
+batch_size: 8
+image_dir: KITTI/images/
+sample_times: 3
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.optimizer.train
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+optim: {'opt': 'Adagrad', 'lr': 0.0005}
+img_h: 184
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+resize_mode: crop
+data_dir: KITTI
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_optAdagrad_lr0.0005.txt
+==================================================

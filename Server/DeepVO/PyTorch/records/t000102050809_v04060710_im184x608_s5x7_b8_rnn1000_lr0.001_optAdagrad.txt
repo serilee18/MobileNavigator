@@ -1,0 +1,38 @@
+
+==================================================
+rnn_dropout_between: 0
+img_h: 184
+resume_t_or_v: .train
+rnn_hidden_size: 1000
+valid_video: ['04', '06', '07', '10']
+valid_data_info_path: datainfo/valid_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+pose_dir: KITTI/pose_GT/
+pretrained_flownet: ./pretrained/flownets_bn_EPE2.459.pth.tar
+data_dir: KITTI
+minus_point_5: True
+conv_dropout: (0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.5)
+load_optimizer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.001_optAdagrad.optimizer.train
+train_video: ['00', '01', '02', '05', '08', '09']
+pin_mem: True
+save_optimzer_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.001_optAdagrad.optimizer
+seq_len: (5, 7)
+img_w: 608
+n_processors: 8
+clip: None
+train_data_info_path: datainfo/train_df_t000102050809_v04060710_pNone_seq5x7_sample3.pickle
+resume: True
+sample_times: 3
+image_dir: KITTI/images/
+epochs: 250
+batch_norm: True
+load_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.001_optAdagrad.model.train
+resize_mode: crop
+partition: None
+img_means: (0.19007764876619865, 0.15170388157131237, 0.10659445665650864)
+save_model_path: models/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.001_optAdagrad.model
+batch_size: 8
+record_path: records/t000102050809_v04060710_im184x608_s5x7_b8_rnn1000_lr0.001_optAdagrad.txt
+img_stds: (0.2610784009469139, 0.25729316928935814, 0.25163823815039915)
+optim: {'lr': 0.001, 'opt': 'Adagrad'}
+rnn_dropout_out: 0.5
+==================================================
