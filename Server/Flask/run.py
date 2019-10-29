@@ -51,5 +51,5 @@ def get():
     return 'GOT %s'%data
 
 if __name__ == '__main__':
-    app.run(host='163.152.217.166', debug=True,port = 8888)
+    app.run(host='0.0.0.0', debug=True,port = 8888)
 
