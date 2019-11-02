@@ -64,7 +64,7 @@ public class UploadActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    String requestURL = "http://163.152.217.166:8888/post";
+                    String requestURL = "http://0.0.0.0:8888/post";
                     String charset = "UTF-8";
 
                     MultipartUtility multipart = new MultipartUtility(requestURL, charset);
@@ -80,10 +80,10 @@ public class UploadActivity extends AppCompatActivity {
                     for(int i=1;i<ResultImage.length;i++) {
                         URL url;
                         if(ResultImage.length-1 == i){
-                            url = new URL("http://163.152.217.166:8888/static/images/"+ResultImage[i]+".jpg");
+                            url = new URL("http://0.0.0.0:8888/static/images/"+ResultImage[i]+".jpg");
                         }
                         else {
-                            url = new URL("http://163.152.217.166:8888/static/result/" + ResultImage[i] + ".jpg");
+                            url = new URL("http://0.0.0.0:8888/static/result/" + ResultImage[i] + ".jpg");
                         }
                         InputStream is = url.openStream();
                         BitmapArr.add(BitmapFactory.decodeStream(is));
